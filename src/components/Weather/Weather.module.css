@@ -12,7 +12,7 @@
 .weatherRow {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content:  space-between;
   align-items: end;
   margin-bottom: 24px;
 }
