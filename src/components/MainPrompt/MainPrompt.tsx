@@ -17,8 +17,8 @@ import { Popover, PopoverContent, PopoverTrigger } from "@nextui-org/popover";
 import { createChatThread } from "../../store/chatSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { selectUserDetailsState, selectAuthState } from "@/store/authSlice";
-import { db } from "../../../firebaseConfig";
-import { storage } from "../../../firebaseConfig";
+import { db } from "../../firebaseConfig";
+import { storage } from "../../firebaseConfig";
 import { collection, doc, setDoc, writeBatch } from "firebase/firestore";
 import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
 
